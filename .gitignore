@@ -1,0 +1,28 @@
+# Directories
+.vs/
+.vscode/
+bin*/
+logs/
+
+# Files
+*.user
+*.DS_STORE
+*.xcworkspace/
+*.xcodeproj/
+*.vcxproj*
+*.sln
+*Makefile
+*.pyc
+
+# Added Ulises
+*.so
+*.pdb
+*.exp
+*.dylib
+
+
+
+# Allow list
+!premake5.exe
+!*.dll
+!*.lib
