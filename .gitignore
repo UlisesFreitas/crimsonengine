@@ -14,14 +14,6 @@ logs/
 *Makefile
 *.pyc
 
-# Added Ulises
-*.so
-*.pdb
-*.exp
-*.dylib
-
-
-
 # Allow list
 !premake5.exe
 !*.dll
