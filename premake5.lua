@@ -1,5 +1,5 @@
 workspace "crimsonengine"
-    startproject "crimsonengineditor"
+    startproject "crimsonengineeditor"
     architecture "x64"
 
     configurations
