@@ -8,6 +8,9 @@ workspace "crimsonengine"
         "Release"
     }
 
+tdir = "bin/%{cfg.buildcfg}/%{prj.name}"
+odir = "bin-obj/%{cfg.buildcfg}/%{prj.name}"
+
 project "crimsonengine"
     location "crimsonengine"
     kind "StaticLib"
@@ -15,6 +18,8 @@ project "crimsonengine"
     cppdialect "C++17"
     staticruntime "on"
 
+    targetdir(tdir)
+    objdir(odir)
     
     files
     {
