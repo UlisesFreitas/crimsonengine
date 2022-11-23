@@ -1,4 +1,8 @@
-MINOR = 0;
-MAJOR = 0;
+import globals
+import sys
 
-print("CrimsonEngine tools - v{}.{}". format(MAJOR, MINOR))
+print("Crimson Engine tools - v{}.{}".format(globals.V_MAJOR, globals.V_MINOR))
+if len(sys.argv) >= 2:
+    print(", ".join(sys.argv))
+
+sys.exit(0)
